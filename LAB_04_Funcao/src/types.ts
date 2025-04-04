@@ -10,6 +10,9 @@ const pessoas: Pessoa[] = [
 { nome: "Carlos", idade: 18 }
 ];
 
+let resultado1 = pessoas.filter( f => f.nome == "Ana")
+console.log(resultado1)
+
 type Produto = {
     nome: string;
     estoque: number;
